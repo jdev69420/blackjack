@@ -237,4 +237,5 @@ function blackjack() {
     messageEl.textContent = "Player has blackjack!"
     hasBlackJack = true
     gameStarted = false
+    removeBets()
 }
